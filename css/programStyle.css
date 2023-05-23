@@ -1,11 +1,70 @@
+
 .column {
     float: left;
     width: 50%;
-  }
-  
-  /* Clear floats after the columns */
-  .row:after {
+}
+
+/* Clear floats after the columns */
+.row:after {
     content: "";
     display: table;
     clear: both;
-  }
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    background-color: rgba(0,0,0,0.3);
+}
+
+.program{
+    width: 100%;
+    min-height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    color: #fff;
+}
+.p_title{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.line{
+    width: 120px ;
+    height: 5px;
+    background-color: #ffffff;
+    margin-bottom: 20px;
+}
+.p_description {
+    text-align: center;
+    margin-bottom: 20px;
+    width: 34em;
+}
+
+.p_button {
+    padding: 10px 20px;
+    background-color : rgba(0,0,0,0.3);
+    border: 3px solid #cccccc;
+    border-radius: 4px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffffff;
+    cursor: pointer;
+    outline: none;
+}
+.p_button:hover{
+    background-color : rgba(0,0,0,0.8);
+    border: 3px solid #eeeeee;
+    transition: 1s;
+}
+.p_button:not(:hover){
+    transition: 1s;
+}
