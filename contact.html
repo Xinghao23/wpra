@@ -70,36 +70,43 @@
                     <div class="info-item media-list">
                         <i class="fa-sharp fa-solid fa-thumbs-up"></i>
                         <ul>
-                            <li><a href="#" class="fa-brands fa-facebook-f"></a></li>
-                            <li><a href="#" class="fa-brands fa-weixin"></a></li>
-                            <li><a href="#" class="fa-brands fa-instagram"></a></li>
-                            <li><a href="#" class="fa-brands fa-youtube"></a></li>
+                            <li><a href="#"><i class="fa-brands fa-facebook-f"></iclass></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-weixin"></iclass></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-instagram"></iclass></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-youtube"></iclass></i></a></li>
                         </ul>
                     </div>
                 </div>
                 
                 <form class="contact-form">
-                    <div class="form-input">
-                        <span class="input-title">First Name</span>
+                    <div id = "first-name-box" class="form-input">
+                        <label class="input-title" for ="first-name">First Name</label>
                         <input id="first-name" type="text" />
                     </div>
                 
-                    <div class="form-input">
-                        <span class="input-title">Last Name</span>
+                    <div id = "last-name-box" class="form-input">
+                        <label class="input-title" for="last-name">Last Name</label>
                         <input id="last-name" type="text" />
                     </div>
                 
-                    <div class="form-input">
-                        <span class="input-title">Email *</span>
+                    <div id = "email-box" class="form-input">
+                        <label class="input-title" for="email">Email *</label>
                         <input id="email" type="email" />
                     </div>
                 
-                    <div class="form-input">
-                        <span class="input-title">Message</span>
-                        <input id="message" type="text" />
+                    <div id = "message-box" class="form-input">
+                        <label class="input-title" for="message">Message</label>
+                        <textarea id="message" name="message" row="5"></textarea>
                     </div>
-                
+                    <button type="submit" class="submit-btn">Send</button>
                 </form>
+            </div>
+
+            <div class="company-map">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d722.8837386663414!2d-123.14329443305462!3d49.1781826320881!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x548675aa58c81979%3A0xa2fdf5f82654ceb2!2sWestern%20Pacific%20Robotics%20Academy!5e0!3m2!1sen!2sca!4v1686440912194!5m2!1sen!2sca"
+                    style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
             
         </div>
