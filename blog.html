@@ -3,27 +3,34 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Western Pacific Robotics Academy</title>
-    <link rel="stylesheet" href="css/styleMain.css"/>
+
+    <link rel="stylesheet" href="css/styleBlog.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/font.css">
+    <script src="js/common.js"></script>
+    <script src="https://kit.fontawesome.com/5902eaa325.js" crossorigin="anonymous"></script>
+
     <link rel="preconnect" href="https://fonts.googleapis.com"/>
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
-    <link
-            href="https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap"
-            rel="stylesheet"
-    />
-    <link
-            rel="stylesheet"
-            href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css"
-    />
-    <link rel="stylesheet" href="css/common.css">
-    <link rel="stylesheet" href="css/styleBlog.css"
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css"/>
+
+
 </head>
 <body>
+<div class="wrapper">
     <header>
         <a href="index.html">
             <div class="logo">
-                <img src="img/LogoSlit-small.png"  alt="LogoSlit"/>
+                <img src="img/LogoSlit-small.png" alt="LogoSlit"/>
                 <h2 id="logoName">Western Pacific <br> Robotics Academy</h2>
             </div>
+        </a>
+        <a class="target-burger">
+            <ul class="buns">
+                <li class="bun"></li>
+                <li class="bun"></li>
+            </ul>
         </a>
         <nav class="nav-links">
             <ul>
@@ -43,6 +50,17 @@
                 <li><a href="contact.html">CONTACT</a></li>
             </ul>
             <!--menu bar-->
+        </nav>
+        <nav class="nav-links_mobile">
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a>
+                <li><a href="team.html">&emsp;&emsp;TEAM</a></li>
+                <li><a href="vex.html">&emsp;&emsp;VEX</a></li>
+                <li><a href="program.html">PROGRAM</a></li>
+                <li><a href="blog.html">BLOG</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
         </nav>
     </header>
 
@@ -94,7 +112,45 @@
         </ul>
     </section>
 
+    <footer>
+        <div class="footerContainer">
+            <div class="footerNav">
+                <ul>
+                    <li><a href="index.html">HOME</a><span class="underline"></span></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="program.html">PROGRAM</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
 
+            <div class="footerAddress">
+                <h2>Address</h2>
+                <p> 123 Main Street <br>Toronto, ON M1A 1A1 Canada <br> Phone Number : 604 123 1234 </p>
+            </div>
+
+            <div class="footerLogoContainer">
+                <a href="index.html">
+                    <div class="footerLogo">
+                        <img src="img/LogoSlit-small.png" alt="LogoSlit-small.png">
+                        <h2>Western Pacific <br> Robotics Academy</h2>
+                    </div>
+                </a>
+            </div>
+
+            <div class="mediaContainer">
+                <a href="#" class="fa-brands fa-facebook"></a>
+                <a href="#" class="fa-brands fa-weixin"></a>
+                <a href="#" class="fa-brands fa-instagram"></a>
+                <a href="#" class="fa-brands fa-youtube"></a>
+            </div>
+
+            <div class="copyright">
+                &copy; 2023 Western Pacific Robotics Academy.
+            </div>
+        </div>
+    </footer>
+</div>
 
 
 </body>

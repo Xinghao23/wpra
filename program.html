@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Western Pacific Robotics Academy</title>
-    <link rel="stylesheet" href="css/styleMain.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="css/styleMain.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
     <link
             href="https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap"
             rel="stylesheet"
@@ -16,147 +16,169 @@
     />
     <link rel="stylesheet" href="css/common.css">
     <link rel="stylesheet" href="css/styleProgram.css">
+    <script src="js/common.js"></script>
 
 </head>
 <body>
 
-    <header>
-        <a href="index.html">
-            <div class="logo">
-                <img src="img/LogoSlit-small.png" alt="LogoSlit"/>
-                <h2 id="logoName">Western Pacific <br> Robotics Academy</h2>
+<header>
+    <a href="index.html">
+        <div class="logo">
+            <img src="img/LogoSlit-small.png" alt="LogoSlit"/>
+            <h2 id="logoName">Western Pacific <br> Robotics Academy</h2>
+        </div>
+    </a>
+    <a class="target-burger">
+        <ul class="buns">
+            <li class="bun"></li>
+            <li class="bun"></li>
+        </ul>
+    </a>
+    <nav class="nav-links">
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li class="navSubMenu"><a href="about.html">ABOUT</a>
+                <ul>
+                    <li>
+                        <a href="team.html">Team</a>
+                    </li>
+                    <li>
+                        <a href="vex.html">VEX</a>
+                    </li>
+                </ul>
+            </li>
+            <li><a href="program.html">PROGRAM</a><span class="underline"></span></li>
+            <li><a href="blog.html">BLOG</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+        <!--menu bar-->
+    </nav>
+    <nav class="nav-links_mobile">
+        <ul>
+            <li><a href="index.html">HOME</a><span class="underline"></span></li>
+            <li><a href="about.html">ABOUT</a>
+            <li><a href="team.html">&emsp;&emsp;TEAM</a></li>
+            <li><a href="vex.html">&emsp;&emsp;VEX</a></li>
+            <li><a href="program.html">PROGRAM</a></li>
+            <li><a href="blog.html">BLOG</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+    </nav>
+</header>
+
+
+<section class="program-general">
+    <div class="general-content">
+        <h2>
+            Coding classes, robotics camps, and more!
+        </h2>
+        <p>
+            With more than 70 summer and after-school courses in coding, game dev, robotics, creative arts, and math,
+            kids and teens
+            will develop skills, flex creativity, and experiment with the latest tools from Adobe, Epic Games,
+            Minecraft, Roblox,
+            and more.
+        </p>
+    </div>
+</section>
+
+<section class="programs-section">
+    <div class="program">
+        <img src="img/kid.webp">
+        <h2>Program 1</h2>
+        <div class="program-details">
+            <div class="program-description">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec ullamcorper justo, id posuere arcu.
+                    Nullam rhoncus mauris non dui sodales
+                </p>
             </div>
-        </a>
-        <nav class="nav-links">
-            <ul>
-                <li><a href="index.html">HOME</a></li>
-                <li class="navSubMenu"><a href="about.html">ABOUT</a>
+            <div class="program-details-wrapper">
+                <div class="program-learn">
+                    <h3>Lesson Content:</h3>
                     <ul>
-                        <li>
-                            <a href="team.html">Team</a>
-                        </li>
-                        <li>
-                            <a href="vex.html">VEX</a>
-                        </li>
+                        <li>Concept 1</li>
+                        <li>Concept 2</li>
+                        <li>Concept 3</li>
                     </ul>
-                </li>
-                <li><a href="program.html">PROGRAM</a><span class="underline"></span></li>
-                <li><a href="blog.html">BLOG</a></li>
-                <li><a href="contact.html">CONTACT</a></li>
-            </ul>
-            <!--menu bar-->
-        </nav>
-    </header>
+                </div>
+                <div class="program-outcome">
+                    <h3>Program Outcome:</h3>
+                    <ul>
+                        <li>Outcome 1</li>
+                        <li>Outcome 2</li>
+                        <li>Outcome 3</li>
+                    </ul>
+                </div>
+            </div>
+            <a class="read-more" href="https://www.vexrobotics.com/">Read more</a>
+        </div>
+    </div>
+
+    <div class="program">
+        <img src="img/kid.webp">
+        <h2>Program 2</h2>
+        <div class="program-details">
+            <div class="program-description">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec ullamcorper justo, id posuere arcu.
+                    Nullam rhoncus mauris non dui sodales
+                </p>
+            </div>
+            <div class="program-details-wrapper">
+                <div class="program-learn">
+                    <h3>Lesson Content:</h3>
+                    <ul>
+                        <li>Concept 4</li>
+                        <li>Concept 5</li>
+                        <li>Concept 6</li>
+                    </ul>
+                </div>
+                <div class="program-outcome">
+                    <h3>Program Outcome:</h3>
+                    <ul>
+                        <li>Outcome 4</li>
+                        <li>Outcome 5</li>
+                        <li>Outcome 6</li>
+                    </ul>
+                </div>
+            </div>
+            <a class="read-more" href="https://www.vexrobotics.com/">Read more</a>
+        </div>
+    </div>
+
+    <div class="program">
+        <img src="img/kid.webp">
+        <h2>Program 3</h2>
+        <div class="program-details">
+            <div class="program-description">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec ullamcorper justo, id posuere arcu.
+                    Nullam rhoncus mauris non dui sodales.
+
+                </p>
+            </div>
+            <div class="program-details-wrapper">
+                <div class="program-learn">
+                    <h3>Lesson Content:</h3>
+                    <ul>
+                        <li>Concept 7</li>
+                        <li>Concept 8</li>
+                        <li>Concept 9</li>
+                    </ul>
+                </div>
+                <div class="program-outcome">
+                    <h3>Program Outcome:</h3>
+                    <ul>
+                        <li>Outcome 7</li>
+                        <li>Outcome 8</li>
+                        <li>Outcome 9</li>
+                    </ul>
+                </div>
+            </div>
+            <a class="read-more" href="https://www.vexrobotics.com/">Read more</a>
+        </div>
+    </div>
+</section>
 
 
-    <section class="program-general">
-        <div class="general-content">
-            <h2>
-                Coding classes, robotics camps, and more!
-            </h2>
-            <p>
-                With more than 70 summer and after-school courses in coding, game dev, robotics, creative arts, and math, kids and teens
-                will develop skills, flex creativity, and experiment with the latest tools from Adobe, Epic Games, Minecraft, Roblox,
-                and more.
-            </p>
-        </div>
-    </section>
-
-    <section class="programs-section">
-        <div class="program">
-            <img src="img/kid.webp">
-            <h2>Program 1</h2>
-            <div class="program-details">
-                <div class="program-description">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec ullamcorper justo, id posuere arcu.
-                        Nullam rhoncus mauris non dui sodales
-                    </p>
-                </div>
-                <div class="program-details-wrapper">
-                    <div class="program-learn">
-                        <h3>Lesson Content:</h3>
-                        <ul>
-                            <li>Concept 1</li>
-                            <li>Concept 2</li>
-                            <li>Concept 3</li>
-                        </ul>
-                    </div>
-                    <div class="program-outcome">
-                        <h3>Program Outcome:</h3>
-                        <ul>
-                            <li>Outcome 1</li>
-                            <li>Outcome 2</li>
-                            <li>Outcome 3</li>
-                        </ul>
-                    </div>
-                </div>
-                <a class="read-more" href="https://www.vexrobotics.com/">Read more</a>
-            </div>
-        </div>
-    
-        <div class="program">
-            <img src="img/kid.webp">
-            <h2>Program 2</h2>
-            <div class="program-details">
-                <div class="program-description">
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec ullamcorper justo, id posuere arcu.
-                        Nullam rhoncus mauris non dui sodales
-                    </p>
-                </div>
-                <div class="program-details-wrapper">
-                    <div class="program-learn">
-                        <h3>Lesson Content:</h3>
-                        <ul>
-                            <li>Concept 4</li>
-                            <li>Concept 5</li>
-                            <li>Concept 6</li>
-                        </ul>
-                    </div>
-                    <div class="program-outcome">
-                        <h3>Program Outcome:</h3>
-                        <ul>
-                            <li>Outcome 4</li>
-                            <li>Outcome 5</li>
-                            <li>Outcome 6</li>
-                        </ul>
-                    </div>
-                </div>
-                <a class="read-more" href="https://www.vexrobotics.com/">Read more</a>
-            </div>
-        </div>
-    
-        <div class="program">
-            <img src="img/kid.webp">
-            <h2>Program 3</h2>
-            <div class="program-details">
-                <div class="program-description">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec ullamcorper justo, id posuere arcu.
-                        Nullam rhoncus mauris non dui sodales.
-                        
-                    </p>
-                </div>
-                <div class="program-details-wrapper">
-                    <div class="program-learn">
-                        <h3>Lesson Content:</h3>
-                        <ul>
-                            <li>Concept 7</li>
-                            <li>Concept 8</li>
-                            <li>Concept 9</li>
-                        </ul>
-                    </div>
-                    <div class="program-outcome">
-                        <h3>Program Outcome:</h3>
-                        <ul>
-                            <li>Outcome 7</li>
-                            <li>Outcome 8</li>
-                            <li>Outcome 9</li>
-                        </ul>
-                    </div>
-                </div>
-                <a class="read-more" href="https://www.vexrobotics.com/">Read more</a>
-            </div>
-        </div>
-    </section>
 </body>
 </html>

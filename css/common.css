@@ -39,6 +39,7 @@ header {
     width: 50%;
     align-items: center;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    font-weight: bold;
 }
 
 .nav-links ul {
@@ -111,7 +112,7 @@ header {
     width: 100%;
     border-top: 1px solid white;
 }
-.navSubMenu li{
+.navSubMenu ul li{
     background-color: rgb(216, 101, 101);
     border-radius: 0;
 }
