@@ -48,12 +48,14 @@
 
 /* Programs Section */
 .programs-section {
-    background-color: #f2f2f2;
+    background-color: #ffffff;
     padding: 50px;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    /*justify-content: space-around;*/
+    max-width: 70%;
+    margin: 0 auto;
     justify-content: center;
+    justify-items: center;
     align-items: center;
     align-content: space-between;
 }
@@ -66,7 +68,7 @@
     border-left: solid 1em #66ccff;
     font-size: 1.3em;
     font-family:Arial, Helvetica, sans-serif;
-    margin: 0 auto;
+    /*margin: 0 auto;*/
     padding-bottom: 30px;
     margin-bottom: 30px;
 }
