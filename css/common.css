@@ -403,6 +403,11 @@ main{
     padding: 0 10px;
 }
 
+.mediaContainer a{
+    color: #ffffff;
+}
+
+
 
 /*  ======== copyright ======== */
 .copyright{
