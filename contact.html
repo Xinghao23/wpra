@@ -12,99 +12,110 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com"/>
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap"/>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css"/>
-
+    <link
+            href="https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap"
+            rel="stylesheet"
+    />
+    <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css"
+    />
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/styleContact.css">
+    <script src="https://kit.fontawesome.com/5902eaa325.js" crossorigin="anonymous"></script>
 </head>
 <body>
-<header>
-    <a href="index.html">
-        <div class="logo">
-            <img src="img/LogoSlit-small.png" alt="LogoSlit"/>
-            <h2 id="logoName">Western Pacific <br> Robotics Academy</h2>
-        </div>
-    </a>
-    <a class="target-burger">
-        <ul class="buns">
-            <li class="bun"></li>
-            <li class="bun"></li>
-        </ul>
-    </a>
-    <nav class="nav-links">
-        <ul>
-            <li><a href="index.html">HOME</a></li>
-            <li class="navSubMenu"><a href="about.html">ABOUT</a>
-                <ul>
-                    <li>
-                        <a href="team.html">Team</a>
-                    </li>
-                    <li>
-                        <a href="vex.html">VEX</a>
-                    </li>
-                </ul>
-            </li>
-            <li><a href="program.html">PROGRAM</a></li>
-            <li><a href="blog.html">BLOG</a></li>
-            <li><a href="contact.html">CONTACT</a> <span class="underline"></span></li>
-        </ul>
-        <!--menu bar-->
-    </nav>
-    <nav class="nav-links_mobile">
-        <ul>
-            <li><a href="index.html">HOME</a><span class="underline"></span></li>
-            <li><a href="about.html">ABOUT</a>
-            <li><a href="team.html">&emsp;&emsp;TEAM</a></li>
-            <li><a href="vex.html">&emsp;&emsp;VEX</a></li>
-            <li><a href="program.html">PROGRAM</a></li>
-            <li><a href="blog.html">BLOG</a></li>
-            <li><a href="contact.html">CONTACT</a></li>
-        </ul>
-    </nav>
-</header>
 
-<section>
-    <div class="text-box">
-        <p>PAGE UNDER CONSTRUCTION</p>
-    </div>
-</section>
-
-<footer>
-    <div class="footerContainer">
-        <div class="footerNav">
+    <header>
+        <a href="index.html">
+            <div class="logo">
+                <img src="img/LogoSlit-small.png" alt="LogoSlit"/>
+                <h2 id="logoName">Western Pacific <br> Robotics Academy</h2>
+            </div>
+        </a>
+        <nav class="nav-links">
             <ul>
-                <li><a href="index.html">HOME</a><span class="underline"></span></li>
-                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="index.html">HOME</a></li>
+                <li class="navSubMenu"><a href="about.html">ABOUT</a>
+                    <ul>
+                        <li>
+                            <a href="team.html">Team</a>
+                        </li>
+                        <li>
+                            <a href="vex.html">VEX</a>
+                        </li>
+                    </ul>
+                </li>
                 <li><a href="program.html">PROGRAM</a></li>
                 <li><a href="blog.html">BLOG</a></li>
-                <li><a href="contact.html">CONTACT</a></li>
+                <li><a href="contact.html">CONTACT</a><span class="underline"></span></li>
             </ul>
-        </div>
+            <!--menu bar-->
+        </nav>
+    </header>
 
-        <div class="footerAddress">
-            <h2>Address</h2>
-            <p> 123 Main Street <br>Toronto, ON M1A 1A1 Canada <br> Phone Number : 604 123 1234 </p>
-        </div>
-
-        <div class="footerLogoContainer">
-            <a href="index.html">
-                <div class="footerLogo">
-                    <img src="img/LogoSlit-small.png" alt="LogoSlit-small.png">
-                    <h2>Western Pacific <br> Robotics Academy</h2>
+    <section>
+        <div class="contact-wrapper">
+            <h1>Contact</h1>
+            <div class="contact-body">
+                <div class="company-info">
+                    <div class="info-item address">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <address>7080 River Rd #227, Richmond, <br>
+                            BC V6X 1X5
+                        </address>
+                    </div>
+                    <div class="info-item phone">
+                        <i class="fa-solid fa-phone"></i>
+                        <p><a href="tel:123-456-7890">123-456-7890</a></p>
+                    </div>
+                    <div class="info-item email">
+                        <i class="fa-solid fa-envelope"></i>
+                        <p><a href="mailto:info@mysite.com">info@mysite.com</a></p>
+                    </div>
+                    <div class="info-item media-list">
+                        <i class="fa-sharp fa-solid fa-thumbs-up"></i>
+                        <ul>
+                            <li><a href="#"><i class="fa-brands fa-facebook-f"></iclass></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-weixin"></iclass></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-instagram"></iclass></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-youtube"></iclass></i></a></li>
+                        </ul>
+                    </div>
                 </div>
-            </a>
-        </div>
+                
+                <form class="contact-form">
+                    <div id = "first-name-box" class="form-input">
+                        <label class="input-title" for ="first-name">First Name</label>
+                        <input id="first-name" type="text" />
+                    </div>
+                
+                    <div id = "last-name-box" class="form-input">
+                        <label class="input-title" for="last-name">Last Name</label>
+                        <input id="last-name" type="text" />
+                    </div>
+                
+                    <div id = "email-box" class="form-input">
+                        <label class="input-title" for="email">Email *</label>
+                        <input id="email" type="email" />
+                    </div>
+                
+                    <div id = "message-box" class="form-input">
+                        <label class="input-title" for="message">Message</label>
+                        <textarea id="message" name="message" row="5"></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">Send</button>
+                </form>
+            </div>
 
-        <div class="mediaContainer">
-            <a href="#" class="fa-brands fa-facebook"></a>
-            <a href="#" class="fa-brands fa-weixin"></a>
-            <a href="#" class="fa-brands fa-instagram"></a>
-            <a href="#" class="fa-brands fa-youtube"></a>
+            <div class="company-map">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d722.8837386663414!2d-123.14329443305462!3d49.1781826320881!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x548675aa58c81979%3A0xa2fdf5f82654ceb2!2sWestern%20Pacific%20Robotics%20Academy!5e0!3m2!1sen!2sca!4v1686440912194!5m2!1sen!2sca"
+                    style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            
         </div>
-
-        <div class="copyright">
-            &copy; 2023 Western Pacific Robotics Academy.
-        </div>
-    </div>
-</footer>
+    </section>
 </body>
 </html>

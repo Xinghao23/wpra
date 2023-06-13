@@ -413,7 +413,7 @@ main{
 /*======================   font     ======================*/
 .fa-brands{
     font-size: 45px;
-    color: white;
+    /* color: white; */
     text-decoration: none;
 }
 .fa-facebook{
