@@ -1,3 +1,11 @@
+
+body{
+    background-image: url(../img/snow.avif);
+    background-size: 100% 100%;
+    background-size: cover;
+    position: relative;
+}
+
 .contact-wrapper {
     box-sizing: border-box;
     width: 95%;
@@ -140,3 +148,4 @@ address {
     height: 400px;
     margin: 0 auto;
 }
+
