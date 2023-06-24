@@ -52,7 +52,8 @@
     padding: 50px;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    max-width: 70%;
+    width: 90%;
+    max-width: 1100px;
     margin: 0 auto;
     justify-content: center;
     justify-items: center;
@@ -61,14 +62,16 @@
 }
 
 .program {
+    position: relative;
     width: 19em;
+    height: 24em;
     background-color: #ffffff;
     border-radius: 5px;
     box-shadow: 5px 5px 5px #6666;
     border-left: solid 1em #66ccff;
     font-size: 1.3em;
     font-family:Arial, Helvetica, sans-serif;
-    /*margin: 0 auto;*/
+    margin: 0 auto;
     padding-bottom: 30px;
     margin-bottom: 30px;
 }
@@ -86,6 +89,7 @@
 .program h2 {
     color: #333333;
     font-size: 20px;
+    height: 2em;
     padding-bottom: 0px;
 }
 
@@ -151,11 +155,69 @@ li {
 }
 
 .program .read-more {
-    margin-left: 30px;
+    position: absolute;
+    top: 88%;
+    left: 7%;
+}
+
+@media screen and (max-width: 980px) {
+    .program-general {
+        padding: 2em 1em;
+    }
+    .program-general .general-content {
+        width: 100%
+    }
+
+    .programs-section {
+        box-sizing: border-box;
+        padding: 50px 10px;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 890px) {
+    .programs-section {
+        box-sizing: border-box;
+        padding: 50px 10px;
+        width: 100%;
+    }
+    
+    .program {
+        width: 19em;
+        height: 24em;
+    }
+
+    .program p {
+        font-size: 0.9em;
+    }
 }
 
 /* Media query for responsive layout */
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
+    .program-general .general-content{
+        /* /* padding: 1em; */
+        padding-bottom: 2em; 
+    }
+
+    .program-general h2 {
+        padding: 0.5em;
+        padding-top: 0;
+    }
+
+
+    .programs-section {
+        grid-template-columns: 1fr;
+    }
+
+    .program {
+        width: 19em;
+        border-left-width: 0.3em;
+    }
+
+    .program p {
+        font-size: 0.9em;
+    }
+
     .program-details-wrapper {
         flex-direction: column;
     }
@@ -163,5 +225,28 @@ li {
     .program-learn,
     .program-outcome {
         flex-basis: 100%;
+    }
+}
+
+@media screen and (max-width: 460px) {
+    .program {
+        width: 95%;
+        height: auto;
+        box-sizing: border-box;
+    }
+
+    .program h2 {
+        height: auto;
+        padding-left: 15px;
+    }
+
+    .program-description {
+        padding: 1em 0.8em;
+        padding-bottom: 3em;
+    }
+
+    .program .read-more {
+        left: 3%;
+        top: calc(100% - 40px);
     }
 }
