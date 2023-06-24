@@ -1,0 +1,39 @@
+body{
+  padding: 25px;
+}
+.headercontainer{
+position: relative;
+margin: 100px 50px;
+//background-image
+}
+.header{
+  padding: 50px;
+  border-style: groove;
+	color: #5C6AC4;
+	position: fixed;
+  top: 9px;
+  right: 60px;
+  text-align: center;
+  font-size: 18px;
+}
+.aboutCourse{
+  padding: 25px;
+  text-indent: 50px;
+  color: #ffffff;
+}
+
+.myslide{
+display:none;
+}
+
+.goal{
+ color: green;
+ text-align: center;
+ 
+}
+.goal-text{
+  color: yellow;
+  text-align: left;
+  text-indent: 50px;
+  
+  }
