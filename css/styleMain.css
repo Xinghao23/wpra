@@ -11,7 +11,7 @@ main{
 
 .CompanyTitle{
     position: relative;
-    height: 30em;
+    height: 80em; /*30em*/
     background-size: cover;
     background-repeat: no-repeat;
 }
