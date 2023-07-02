@@ -1,0 +1,221 @@
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+    display: none;
+}
+
+/* show first slide by default */
+.mySlides:first-child {
+    display: block;
+ }
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #d4c9c9;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+.header-text{
+
+  color: #f2f2f2;
+  font-size:25px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 8px;
+  right: 20px;
+  width: 100%;
+  text-align: right;
+
+}
+/* about section */
+.about-course{
+  text-align: center;
+  text-transform: capitalize;
+  margin:auto;
+  padding: 20px 10px;
+
+}
+
+.about-course-text{
+  padding: 10px 10px;
+}
+
+/*Course objective*/
+.goal{
+  text-align: center;
+  text-transform: capitalize;
+  margin:auto;
+  padding: 20px 10px;
+}
+
+.goal-text{
+  padding: 10px 10px;
+}
+
+/*page selection*/
+
+/** Layout */
+@import url('https://fonts.googleapis.com/css?family=Righteous');
+.selector {
+  background: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: Righteous;
+  margin: auto;
+}
+
+.arrow-wrapper {
+  display: flex;
+  align-items: center;
+}
+.block {
+  width: 300px;
+  height: 50px;
+  background: #eee;
+  margin: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+h3 {
+
+  text-align: center;
+  text-transform: uppercase;
+  transition: opacity 0.3s;
+}
+.arrow-wrapper:hover h1 {
+  opacity: 1;
+}
+/***************
+ * Arrow 2
+ ***************/
+#arrow_2 .arrow {
+  color: #141212;
+  cursor: pointer;
+  display: block;
+  align-items: flex-start;
+  text-transform: uppercase;
+  position: relative;
+  transition: transform 0.3s;
+}
+#arrow_2 .arrow span {
+  display: block;
+  width: 3em;
+  opacity: 0;
+  transition: opacity 0.3s 0s;
+  padding: 0 0.5em;
+}
+#arrow_2 .arrow:hover span {
+  opacity: 1;
+  transition: opacity 0.3s 0.1s;
+}
+#arrow_2 .arrow:before {
+  content: '';
+  display: block;
+  border: solid #000000;
+  border-width: 2px 2px 0 0;
+  position: absolute;
+  top: 4px;
+  width: 10px;
+  height: 10px;
+}
+
+#arrow_2 .arrow.arrow--left:before {
+  transform: rotate(-135deg);
+  right: 0;
+  transition: right 0.3s 0.2s;
+}
+#arrow_2 .arrow.arrow--left:hover:before {
+  right: 100%;
+  transition: right 0.3s;
+}
+#arrow_2 .arrow.arrow--right:before {
+  left: 0;
+  transform: rotate(45deg);
+  transition: left 0.3s 0.2s;
+}
+#arrow_2 .arrow.arrow--right:hover:before {
+  left: 100%;
+  transition: left 0.3s;
+}
+#arrow_2 .arrow:hover {
+  transform: none;
+}
