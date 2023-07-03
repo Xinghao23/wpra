@@ -1,4 +1,5 @@
 .container {
+    padding: 0 2em;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -38,6 +39,7 @@
     height: auto;
     margin-left: auto;
     margin-right: 0;
+    object-fit: cover;
 }
 
 .blog-section h1 {
@@ -74,6 +76,7 @@ button {
     cursor: pointer;
     display: block;
     max-width: 200px;
+    color: #00aaff;
 }
 
 button:hover {
@@ -105,4 +108,64 @@ button:hover {
 
 ul.container {
     list-style-type: none
+}
+
+
+@media screen and (max-width: 670px) {
+    body{
+        background-color: #eee;
+    }
+
+    .item {
+        flex-direction: column;
+        background-color: #fff;
+        border-radius: 0.5em;
+        padding-bottom: 1em;
+    }
+
+    .item .blog-title {
+        order: 1;
+        box-sizing: border-box;
+        width: 100%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        padding: 0.7em;
+    }
+
+    .blog-title .date {
+        margin-bottom: 0em;
+        color: #b2aeae;
+    }
+
+    .blog-title .title {
+        font-size: 1em;
+        margin: 0;
+        color: #03699c;
+        font-weight: 600;
+    }
+
+    .content {
+        order: 3;
+        box-sizing: border-box;
+        padding: 1em;
+        padding-bottom: 0;
+    }
+
+    .item .content {
+        margin: 0 auto;
+    }
+
+    .item img {
+        order: 2;
+        max-width: none;
+        height: 200px;
+    }
+
+    .summary {
+        margin-bottom: 0.5em;
+        padding-bottom: 0.8em;
+        border-bottom: 1px solid #eee;
+    }
 }
