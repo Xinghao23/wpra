@@ -17,7 +17,7 @@ body{
 
 .CompanyTitle{
     position: relative;
-    height: 20em; /*30em*/
+    height: 400px;
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -27,39 +27,7 @@ body{
     overflow: hidden;
     margin: 0 auto;
 }
-/*
 
-
-.c1_description{
-    width: 70%;
-    height: auto;
-    margin: 6em auto 0 20%;
-    vertical-align: center;
-    font-family: "aktiv-grotesk",
-    'Open Sans',
-    'Helvetica Neue',
-    Helvetica,
-    Arial,
-    sans-serif;
-}
-
-.c1_description h1{
-    color: #61aaff;
-    margin: 20px 0;
-    font-size: 3em;
-    white-space: nowrap;
-}
-.c1_description ul{
-    margin-left: 3em;
-    !*list-style: none;*!
-    color: #ffffff;
-    font-size: 1.3em;
-
-}
-.c1_description ul li{
-    margin-bottom: 8px;
-    white-space: nowrap;
-}*/
 .CompanyTitle h1,h3{
     color: #ffffff;
     text-align: center;
@@ -262,5 +230,33 @@ body{
 
     .WhatWeProvide_img{
         width: 100%;
+    }
+}
+
+@media (max-width: 700px){
+    .CompanyTitle h1{
+        font-size: 2em;
+    }
+    .CompanyTitle h3{
+        font-size: 0.8em;
+        padding: 0 10%;
+    }
+
+    .content2{
+        padding: 30px 0;
+        overflow: hidden;
+    }
+    .video-container{
+        width: 100%;
+        min-width: unset;
+    }
+
+    .WhatWeProvide_content h1{
+        font-size: 2em;
+        margin-bottom: 20px;
+    }
+    .WhatWeProvide_content ul li{
+        color: #e5e5e5;
+        font-size: 0.8em;
     }
 }
