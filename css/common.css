@@ -35,8 +35,8 @@ header {
 }
 
 .nav-links {
-    padding: 2% 6%;
-    width: 50%;
+    margin-right: 30px;
+    width: 850px;
     align-items: center;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
     font-weight: bold;
@@ -69,7 +69,7 @@ header {
     display: block;
     color: white;
     text-decoration: none;
-    padding: 10px;
+    padding: 10px 0;
 }
 
 .nav-links li:hover {
@@ -290,7 +290,6 @@ main{
 
 .footerNav {
     width: auto;
-    margin-left: 8%;
 }
 
 .footerNav a {
@@ -343,18 +342,16 @@ main{
 /*  ===========  footer logo =============  */
 .footerLogoContainer {
     position: absolute;
-    right: 15%;
-    top: 50px;
-    height: 150px;
-    width: 350px;
-    /*background-color: red;*/
+    right: 14.5%;
+    top: 120px;
+    height: auto;
+    width: auto;
 }
 
 .footerLogo {
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin-bottom: 20px;
 }
 
 .footerLogoContainer a {
@@ -363,8 +360,8 @@ main{
 }
 
 .footerLogo img {
-    width: 150px;
-    height: 150px;
+    width: 120px;
+    height: 120px;
 }
 
 .footerLogo h2 {
@@ -376,12 +373,11 @@ main{
 
 .mediaContainer{
     position: absolute;
-    top: 250px;
+    top: 260px;
     right: 13%;
     display: flex;
     justify-content: space-between;
     width: 350px;
-    max-width: 30%;
     min-width: 200px;
     height: auto;
     /*border: #00a4ff 2px solid;*/
@@ -416,7 +412,7 @@ main{
 /*===END Footer===*/
 @media (max-width: 1200px) {
     .footerLogoContainer{
-        right: 4%;
+        right: 6%;
     }
     .mediaContainer{
         right: 4%;
@@ -523,7 +519,7 @@ main{
     .mediaContainer{
         position: static;
         margin: 15px 0;
-        width: 50%;
+        width: 35%;
     }
     .fa-brands{
         font-size: 30px;
