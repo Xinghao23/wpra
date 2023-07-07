@@ -428,7 +428,6 @@ main{
     }
 
 
-
     footer{
         display: block;
         position: relative;
@@ -557,5 +556,29 @@ main{
     .footerAddress p{
         font-size: 0.7em;
     }
+}
+@media(max-width: 300px){
+    .logo{
+        width: 18em;
+    }
+    .logo img{
+        width: 3em;
+        height: 3em;
+    }
+    #logoName{
+        font-size: 0.7em;
+    }
+    nav.nav-links_mobile ul{
+        margin-top: 10px;
+    }
+    nav.nav-links_mobile ul li a{
+        font-size: 1em;
+    }
 
+    .footerNav{
+        font-size: 1px;
+    }
+    .footerNav ul li{
+        padding: 10px 3px;
+    }
 }
