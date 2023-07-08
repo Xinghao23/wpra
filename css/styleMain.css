@@ -1,5 +1,5 @@
 
-body{
+body {
     background-image: url("../img/stars_background.jpg");
     background-attachment: fixed;
     background-position: top;
@@ -8,45 +8,49 @@ body{
 }
 
 
-.bodyContent{
+.bodyContent {
     height: auto;
     width: 100%;
 
 }
+
 /*=========================  contain1   =========================*/
 
-.CompanyTitle{
+.CompanyTitle {
     position: relative;
     height: auto;
     background-size: cover;
     background-repeat: no-repeat;
 }
-.darkBG{
+
+.darkBG {
     width: 100%;
     height: auto;
     overflow: hidden;
     margin: 0 auto 50px;
 }
 
-.CompanyTitle h1,h3{
+.CompanyTitle h1, h3 {
     color: #ffffff;
     text-align: center;
 }
+
 .CompanyTitle h1 {
     margin-top: 130px;
     font-size: 4em;
     font-weight: bold;
 }
-.CompanyTitle h3{
+
+.CompanyTitle h3 {
     margin-top: 12px;
     font-size: 1em;
 }
 
-.CompanyTitle_button{
+.CompanyTitle_button {
     display: block;
     width: 160px;
     color: #fff;
-    background-color: rgba(0,0,0,0.2);
+    background-color: rgba(0, 0, 0, 0.2);
     font-size: 1em;
     font-weight: 700;
     border-radius: 2px;
@@ -57,130 +61,142 @@ body{
     padding: 5px;
     transition: 0.5s ease;
 }
-.CompanyTitle_button:hover{
+
+.CompanyTitle_button:hover {
     transform: scale(1.1);
     /*color: rgb(224, 69, 69);*/
 }
 
 /*======================== PHOTO SLIDESHOW ===========================*/
-* {box-sizing:border-box}
+* {
+    box-sizing: border-box
+}
 
 /* Slideshow container */
-.slideshow_container{
+.slideshow_container {
     margin-bottom: 30px;
 }
 
 .slideshow1 {
-  max-width: 1000px;
-  position: relative;
-  margin: auto;
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
 }
 
 /* Hide the images by default */
 .mySlides {
     display: none;
 }
-.mySlides>img{
+
+.mySlides > img {
     height: 500px;
 }
 
 /* show first slide by default */
 .mySlides:first-child {
     display: block;
- }
+}
+
 /* Next & previous buttons */
 .prev, .next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  margin-top: -22px;
-  padding: 16px;
-  color: white;
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
 }
 
 /* Position the "next button" to the right */
 .next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
+    right: 0;
+    border-radius: 3px 0 0 3px;
 }
 
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
+    background-color: rgba(0, 0, 0, 0.8);
 }
 
 /* Caption text */
 .text {
-  color: #f2f2f2;
-  font-size: 15px;
-  padding: 8px 12px;
-  position: absolute;
-  bottom: 8px;
-  width: 100%;
-  text-align: center;
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
 }
 
 /* Number text (1/3 etc) */
 .numbertext {
-  color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
 }
 
 /* The dots/bullets/indicators */
 .dot {
-  cursor: pointer;
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
 }
 
 .active, .dot:hover {
-  background-color: #717171;
+    background-color: #717171;
 }
 
 /* Fading animation */
 .fade {
-  animation-name: fade;
-  animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
 }
 
 @keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
 }
 
 
 /*=========================  content2   =========================*/
 
-.content2{
+.content2 {
     width: auto;
     height: 30em;
     padding: 30px;
 }
-.video-container{
+
+.video-container {
     width: 65%;
     min-width: 25em;
     height: 100%;
     margin: 0 auto;
 }
-.video-container iframe{
+
+.video-container iframe {
     width: 100%;
     height: 100%;
 }
-.block{
+
+.block {
     background-color: pink;
     width: 100px;
     height: 1000px;
@@ -189,45 +205,50 @@ body{
 
 /*=========================  WhatWeProvide_container   =========================*/
 
-.WhatWeProvide_container{
+.WhatWeProvide_container {
     position: relative;
     width: 100%;
     height: 500px;
     overflow: hidden;
 }
-.WhatWeProvide_content{
+
+.WhatWeProvide_content {
     position: absolute;
     top: 120px;
     left: 7%;
     float: left;
     width: 50%;
 }
+
 .WhatWeProvide_content h1 {
     color: #b7cfe7;
     font-size: 2.7em;
     font-weight: bold;
 }
+
 .WhatWeProvide_content ul {
     color: #b7cfe7;
     padding-left: 40px;
     margin-top: 10px;
     font-size: 1.3em;
 }
-.WhatWeProvide_content ul li{
+
+.WhatWeProvide_content ul li {
     margin-bottom: 9px;
 }
 
-.WhatWeProvide_img{
+.WhatWeProvide_img {
     float: right;
     width: 50%;
 }
 
 
-@media (max-width: 1200px){
-    .WhatWeProvide_content h1{
+@media (max-width: 1200px) {
+    .WhatWeProvide_content h1 {
         font-size: 2.3em;
         white-space: nowrap;
     }
+
     .WhatWeProvide_content ul {
         padding-left: 40px;
         margin-top: 10px;
@@ -235,8 +256,8 @@ body{
     }
 }
 
-@media (max-width: 1000px){
-    .WhatWeProvide_content{
+@media (max-width: 1000px) {
+    .WhatWeProvide_content {
         position: absolute;
         top: 0;
         left: 0;
@@ -246,66 +267,74 @@ body{
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        background-color: rgba(0,0,0,0.3);
+        background-color: rgba(0, 0, 0, 0.3);
     }
-    .WhatWeProvide_content h1{
+
+    .WhatWeProvide_content h1 {
         font-size: 2.9em;
         margin-bottom: 20px;
     }
-    .WhatWeProvide_content ul li{
+
+    .WhatWeProvide_content ul li {
         color: #e5e5e5;
         font-size: 1.1em;
     }
 
 
-    .WhatWeProvide_img{
+    .WhatWeProvide_img {
         width: 100%;
     }
 }
 
-@media (max-width: 700px){
-    .CompanyTitle h1{
+@media (max-width: 700px) {
+    .CompanyTitle h1 {
         font-size: 2em;
         margin-top: 100px;
     }
-    .CompanyTitle h3{
+
+    .CompanyTitle h3 {
         font-size: 0.8em;
         padding: 0 10%;
     }
 
-    .content2{
+    .content2 {
         height: 18em;
         padding: 30px 0;
         overflow: hidden;
     }
-    .video-container{
+
+    .video-container {
         width: 100%;
         min-width: unset;
     }
-    .WhatWeProvide_container{
+
+    .WhatWeProvide_container {
         height: 25em;
     }
-    .WhatWeProvide_content h1{
+
+    .WhatWeProvide_content h1 {
         font-size: 2em;
         margin-bottom: 20px;
     }
-    .WhatWeProvide_content ul li{
+
+    .WhatWeProvide_content ul li {
         color: #e5e5e5;
         font-size: 0.8em;
     }
 }
 
-@media(max-width: 450px){
-    .content2{
+@media (max-width: 450px) {
+    .content2 {
         padding: 0;
     }
-    .mySlides>img{
+
+    .mySlides > img {
         height: 300px;
     }
 }
 
-@media(max-width: 300px){
-    .WhatWeProvide_content h1{
+@media (max-width: 300px) {
+    .WhatWeProvide_content h1 {
         font-size: 1.5em;
     }
 }
