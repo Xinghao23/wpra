@@ -40,10 +40,12 @@
     padding: 40px 20px;
     text-align: center;
     background-color: #fefdfd;
+    
 }
 
 .team-member-section .team-member-header {
     margin-bottom: 20px;
+    
 }
 
 .team-memer-header h2 {
@@ -61,17 +63,18 @@
 
 .team-member {
     width: 80%;
-    height: 350px;
+    height: 450px;
     margin: 20px;
     padding: 20px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    background-color: #ffe766;
+    background-color: #fff700;
+    border-radius: 5%;
 }
 
 .team-member img {
     width: 150px;
     height: 150px;
-    border-radius: 50%;
+    border-radius: 30%;
     margin-bottom: 10px;
 }
 
