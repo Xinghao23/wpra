@@ -34,6 +34,17 @@ body {
     color: #ffffff;
     text-align: center;
 }
+.CompanyTitle h5 {
+    color: #24dde3;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 1em;
+}
+.CompanyTitle h4 {
+    color: #24dde3;
+    text-align: center;
+}
+
 
 .CompanyTitle h1 {
     margin-top: 130px;
@@ -203,46 +214,6 @@ body {
     margin-bottom: 10px;
 }
 
-/*=========================  WhatWeProvide_container   =========================*/
-
-.WhatWeProvide_container {
-    position: relative;
-    width: 100%;
-    height: 500px;
-    overflow: hidden;
-}
-
-.WhatWeProvide_content {
-    position: absolute;
-    top: 120px;
-    left: 7%;
-    float: left;
-    width: 50%;
-}
-
-.WhatWeProvide_content h1 {
-    color: #b7cfe7;
-    font-size: 2.7em;
-    font-weight: bold;
-}
-
-.WhatWeProvide_content ul {
-    color: #b7cfe7;
-    padding-left: 40px;
-    margin-top: 10px;
-    font-size: 1.3em;
-}
-
-.WhatWeProvide_content ul li {
-    margin-bottom: 9px;
-}
-
-.WhatWeProvide_img {
-    float: right;
-    height: 70px;
-    width: 65%;
-    transform: scale(0.5, 0.5);
-}
 
 
 @media (max-width: 1200px) {
