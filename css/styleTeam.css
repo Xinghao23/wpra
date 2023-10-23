@@ -95,6 +95,11 @@
     line-height: 1.5;
     text-align: left
 }
+.team-member-experience h1{
+    font-size: 14px;
+    line-height: 1.5;
+    text-align: left
+}
 
 .environment {
     background-color: #f9f5f5;

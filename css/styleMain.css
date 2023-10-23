@@ -35,13 +35,13 @@ body {
     text-align: center;
 }
 .CompanyTitle h5 {
-    color: #24dde3;
+    color: #f1f1f1;
     text-align: center;
     margin-top: 20px;
     font-size: 1em;
 }
 .CompanyTitle h4 {
-    color: #24dde3;
+    color: #f1f1f1;
     text-align: center;
 }
 
@@ -68,7 +68,7 @@ body {
     border: 2px solid #fff;
     text-decoration: none;
     text-align: center;
-    margin: 0 auto 50px;
+    margin: 0 auto 40px;
     padding: 5px;
     transition: 0.5s ease;
 }
