@@ -1,4 +1,11 @@
-
+/*video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index:-100;
+  }*/
 body {
     background-image: url("../img/wall_paper.jpg");
     background-attachment: fixed;
